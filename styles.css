@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+  line-height: 1;
+  padding-bottom: 20px;
+  font-size: 24.41px;
+}
+
+.component {
+  background-color: #fff;
+  width: 375px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.code {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.description {
+  padding-top: 20px;
+}
+
+.description-paragraph {
+  color: hsl(220, 15%, 55%);
+  font-size: 18px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+  .component {
+    width: 200px;
+  }
+}
